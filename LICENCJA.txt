@@ -1,0 +1,90 @@
+WARUNKI KORZYSTANIA Z PROGRAMU e3dAI
+====================================
+
+e3dAI – generator dekoracji do scenerii realistycznych symulatora MaSzyna EU07
+Autor: Paweł Warszawski
+
+Pobierając, instalując lub uruchamiając program, akceptujesz poniższe warunki. Jeśli ich nie
+akceptujesz, nie korzystaj z programu.
+
+
+1. Co wolno
+
+   1.1. Możesz bezpłatnie używać programu e3dAI na dowolnej liczbie własnych komputerów, w celach
+        niekomercyjnych – w szczególności do tworzenia scenerii dla symulatora MaSzyna EU07 i
+        udostępniania ich innym.
+
+   1.2. Niniejsza licencja obejmuje wyłącznie korzystanie z programu w celach niekomercyjnych.
+        Używanie programu do tworzenia scenerii lub innych materiałów w celach zarobkowych – np.
+        płatnych scenerii, projektów wykonywanych na zlecenie albo produktów na sprzedaż – wymaga
+        wcześniejszej zgody autora.
+
+   1.3. Możesz rozpowszechniać program, także jako część paczek scenerii, pod warunkiem że:
+        - udostępniasz go bezpłatnie,
+        - w postaci niezmienionej i kompletnej, razem z tym plikiem oraz katalogiem LICENCJE,
+        - podajesz źródło: odnośnik do oficjalnej strony wydań programu,
+          https://github.com/pwarszawski/e3dAI-bin
+
+
+2. Czego nie wolno
+
+   2.1. Sprzedawać programu, pobierać opłat za dostęp do niego ani świadczyć z jego użyciem płatnych
+        usług bez zgody autora.
+
+   2.2. Rozpowszechniać programu w postaci zmienionej lub niekompletnej ani bez podania źródła.
+
+   2.3. Modyfikować programu, a także dekompilować go, deasemblować i w inny sposób odtwarzać jego
+        kodu źródłowego lub zasady działania – w zakresie, w jakim prawo na to pozwala.
+
+   2.4. Usuwać ani zmieniać informacji o autorze, tych warunków oraz plików w katalogu LICENCJE.
+
+
+3. Biblioteki innych autorów
+
+   Program zawiera biblioteki innych autorów (m.in. GDAL, PROJ, curl, Dear ImGui, laz-perf),
+   wymienione w pliku LICENCJE/WYKAZ.txt. Każda z nich podlega własnej licencji, której tekst
+   znajduje się w katalogu LICENCJE. Niniejsze warunki nie ograniczają praw, jakie dają Ci te
+   licencje w odniesieniu do samych bibliotek.
+
+
+4. Dane z Geoportalu
+
+   Program pobiera dane z serwisów Geoportal.gov.pl (państwowy zasób geodezyjny i kartograficzny).
+   Korzystając z tych danych, odpowiadasz za przestrzeganie zasad ich udostępniania określonych
+   przez Główny Urząd Geodezji i Kartografii. Autor programu nie odpowiada za treść, dokładność ani
+   dostępność tych danych.
+
+
+5. Twoje dane
+
+   Program nie zbiera żadnych informacji o Tobie ani o Twoim komputerze i niczego nie wysyła
+   autorowi. Łączy się wyłącznie z serwisami Geoportalu, i to tylko wtedy, gdy sam zlecisz
+   sprawdzenie aktualności lub pobranie danych.
+
+
+6. Brak gwarancji
+
+   6.1. Program jest udostępniany w stanie, w jakim jest („tak jak jest”), bez jakichkolwiek
+        gwarancji co do jego przydatności, poprawności działania czy poprawności wyników.
+
+   6.2. Program zapisuje i przenosi pliki na dysku oraz pobiera duże ilości danych. Pobrane chmury
+        punktów .laz domyślnie usuwa po przerobieniu ich na rastry, ponieważ mogą zajmować bardzo
+        dużo miejsca na dysku; usuwanie można wyłączyć w pliku e3dAI.ini (UsunLazPoKonwersji).
+        Przed użyciem zrób kopię zapasową ważnych plików, w tym swoich scenerii.
+
+   6.3. W najszerszym zakresie dopuszczalnym przez prawo autor nie ponosi odpowiedzialności za
+        szkody wynikłe z korzystania z programu lub z niemożności korzystania z niego, w tym za
+        utratę danych.
+
+
+7. Postanowienia końcowe
+
+   7.1. Naruszenie tych warunków oznacza utratę prawa do korzystania z programu.
+
+   7.2. Autor może zmieniać te warunki. Zmiany dotyczą wersji programu wydanych po ich
+        wprowadzeniu.
+
+   7.3. W sprawach nieuregulowanych stosuje się prawo polskie.
+
+   7.4. Kontakt z autorem: zgłoszenia (Issues) na stronie
+        https://github.com/pwarszawski/e3dAI-bin/issues
